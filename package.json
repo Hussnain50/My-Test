@@ -1,5 +1,5 @@
 {
-  "name": "my-test",
+  "name": "my-piaic-calculator",
   "version": "1.0.0",
   "description": "Making this for desktop git",
   "main": "index.js",
@@ -8,5 +8,12 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Hussnain",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "inquirer": "^9.2.16"
+  },
+  "devDependencies": {
+    "@types/inquirer": "^9.0.7",
+    "@types/node": "^20.11.30"
+  }
 }
